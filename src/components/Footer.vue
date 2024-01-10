@@ -1,5 +1,5 @@
 <template>
-    <div class=" container-fluid footer Body">
+    <div class=" container-fluid footer shadow Body">
             <div class="row">
                 <div class="col-6 text-left">&NaeemaOmar Left</div>
                 <div class="col-6 text-right">&NaeemaOmar Right</div>
@@ -21,10 +21,14 @@ export default {
     background-color: #ffffff;
     width: 100%;
 }
+.shadow{
+    color: #4A351D ;
+    box-shadow: 0px 0px 30px 10px #4A351D ;
+    }
 
       /* Animation (from the following open-source https://codepen.io/P1N2O/pen/pyBNzX) starts here  */
       .Body{
-        background: linear-gradient(45deg, #EDB5A2 , #F1CFBF);
+        background: linear-gradient(-45deg, #EDB5A2 , #F1CFBF);
         background-size: 4000% 400%;
         animation: gradient 15s ease 1;
         height: fit-content;
