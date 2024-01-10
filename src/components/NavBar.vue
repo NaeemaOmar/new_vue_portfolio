@@ -1,6 +1,6 @@
 <template>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand border" href="/">
+    <nav class="navbar navbar-expand-lg navbar-light Body">
+    <a class="navbar-brand" href="/">
         <img class="img-fluid rounded-circle logoImg" src="https://drive.google.com/uc?id=1v5baE4JiUolnN7DjkKaIOG2zaY6zZgZ7" 
         alt="logoImage">
     </a>
@@ -54,5 +54,24 @@
         max-height: 40px;
     }
 
+      /* Animation (from the following open-source https://codepen.io/P1N2O/pen/pyBNzX) starts here  */
+      .Body{
+        background: linear-gradient(45deg, #EDB5A2 , #F1CFBF);
+        background-size: 4000% 400%;
+        animation: gradient 15s ease 1;
+        height: fit-content;
+    }
+    @keyframes gradient{
+        0%{
+            background-position: 0% 50%;
+        }
+        50%{
+            background-position: 100% 50%;
+        }
+        100%{
+            background-position: 0% 50%;
+        }
+    }
+    /* Animation (from the following open-source https://codepen.io/P1N2O/pen/pyBNzX) ends here  */
 
   </style>
