@@ -4,7 +4,6 @@
         <img class="img-fluid rounded-circle logoImg" src="https://drive.google.com/uc?id=1v5baE4JiUolnN7DjkKaIOG2zaY6zZgZ7" 
         alt="logoImage">
     </a>
-
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -43,7 +42,6 @@
   
     .nav-item{
         margin-top: 0.5%;
-        /* margin-inline: 5%; */
     }
 
     .navbar-nav{
@@ -58,4 +56,3 @@
 
 
   </style>
-  
