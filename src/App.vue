@@ -23,12 +23,11 @@ export default{
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  color: #4A351D;
 }
 
 
 body{
-  /* background: radial-gradient(circle, #EDB5A2, #4A351D); */
   background-color: #EDB5A2;
 }
 
