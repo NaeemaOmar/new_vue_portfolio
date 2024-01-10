@@ -14,6 +14,7 @@ export default{
     Footer
   }
 }
+
 </script>
 
 <style>
@@ -26,12 +27,27 @@ export default{
 }
 
 
+body{
+  /* background: radial-gradient(circle, #EDB5A2, #4A351D); */
+  background-color: #EDB5A2;
+}
+
+nav {
+  /* padding: 30px; */
+  /* main, darker peach #EDB5A2; */
+  /* The nice blue = #2c3e50 */
+  /* The nice brown = #4A351D */
+  /* Greyish accent color = #E6D9CB*/
+  /* softer peach = #F5E9DB */
+}
+
 nav a {
   font-weight: bold;
-  color: #2c3e50;
+  color: #4A351D;
+  padding: 20px;
 }
 
 nav a.router-link-exact-active {
-  color: #42b983;
+  color: #E6D9CB;
 }
 </style>
