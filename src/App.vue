@@ -1,28 +1,20 @@
 <template>
   <NavBar/>
   <router-view/>
+  <Footer/>
 </template>
 
 <script>
 import NavBar from '@/components/NavBar.vue'
+import Footer from '@/components/Footer.vue'
 
-  export default{
-    components:{
-      NavBar
-    },
-    computed:{
-      getInfo(){
-        this.$store.dispatch('getInfo');
-      },
-      actualHead(){
-        this.$store.dispatch('setHomePageheading');
-      }
-    },
-    mounted(){
-      this.getInfo
-      this.actualHead
-    }
+export default{
+  components:{
+    NavBar,
+    Footer
   }
+}
+
 </script>
 
 <style>
@@ -33,6 +25,7 @@ import NavBar from '@/components/NavBar.vue'
   text-align: center;
   color: #2c3e50;
 }
+
 
 body{
   /* background: radial-gradient(circle, #EDB5A2, #4A351D); */

@@ -1,6 +1,7 @@
 <template>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="/">MyPortfolio</a>
+
+    <a class="navbar-brand" href="/">MyPortfolio-New</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -39,28 +40,8 @@
   
     .nav-item{
         margin-top: 0.5%;
+        margin-inline: 10%;
     }
 
   </style>
-  
-  <!-- <template>
-      <nav>
-          <a>
-              <router-link class="navbar-brand" to="/">MyPortfolio</router-link> 
-          </a>
-          <router-link to="/">Home</router-link> |
-          <router-link to="/about">About</router-link> |
-          <router-link to="/resume">Resume</router-link> |
-          <router-link to="/projects">Projects</router-link> |
-          <router-link to="/testimonials">Testimonials</router-link> |
-          <router-link to="/contact">Contact</router-link> |
-      </nav>
-  </template>
-  
-  <script>
-  
-  </script>
-  
-  <style>
-  
-  </style> -->
+ 
