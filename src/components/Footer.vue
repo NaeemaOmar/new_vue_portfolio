@@ -18,7 +18,7 @@ export default {
 .footer{
     position: absolute;
     bottom: 0;
-    background-color: #EDB5A2;
+    background-color: #ffffff;
     width: 100%;
 }
 
