@@ -1,5 +1,6 @@
 <template>
-    <nav class="navbar navbar-expand-lg navbar-light Body">
+    <nav class="navbar navbar-expand-lg navbar-light Body shadow">
+        <!-- NOTE: navbar-light is the burger icon -->
     <a class="navbar-brand" href="/">
         <img class="img-fluid rounded-circle logoImg" src="https://drive.google.com/uc?id=1v5baE4JiUolnN7DjkKaIOG2zaY6zZgZ7" 
         alt="logoImage">
@@ -53,10 +54,18 @@
     .logoImg{
         max-height: 40px;
     }
+    .shadow{
+    color: #4A351D ;
+    box-shadow: 0px 0px 30px 10px #4A351D ;
+    }
+    .brownBg{
+        background-color: #4A351D;
+        margin: 3px;
+    }
 
       /* Animation (from the following open-source https://codepen.io/P1N2O/pen/pyBNzX) starts here  */
       .Body{
-        background: linear-gradient(45deg, #EDB5A2 , #F1CFBF);
+        background: linear-gradient(-45deg, #F1CFBF, #EDB5A2);
         background-size: 4000% 400%;
         animation: gradient 15s ease 1;
         height: fit-content;
