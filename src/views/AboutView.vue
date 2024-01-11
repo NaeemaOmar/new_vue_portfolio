@@ -1,36 +1,67 @@
 <template>
   <div class="firstDiv">
     <div class="firstDivsChild">
-          <h1 class="welcome mt-5">Hi, I am <span class="blueTxt bold">Naeema Omar</span></h1>
+          <h3 class="welcome mt-4">Hi, I am <span class="bold">Naeema Omar</span></h3>
     </div>
   </div>
-  <div class="row mt-5 mx-5 d-flex justify-content-between  rowWidth">
+  <div class="row mt-4 mx-5">
     <!-- The d-flex... in the line above is keeping things centered in the 1000px page width -->
     <!-- NOTE: the row div above holds the entire above pg break down -->
 
     
     <!-- Column holding img + basic info starts here -->
+    <div class="col-12 col-sm-6">
           <!-- Row holding img starts here -->
-              <!-- THIS WILL BE A COL-12 -->
-          <!-- Row holding img ends here -->
-          <!-- Row holding basic info starts here -->
+            <!-- THIS WILL BE A COL-12 -->
+            <div class="row border">
+              <div class="col-12">
+                <img class="aboutPgImg" src="https://i.ibb.co/dDknjkr/about-Pg-Pic.jpg" alt="">
+              </div>
+            </div>
+            <!-- Row holding img ends here -->
+            <!-- Row holding basic info starts here -->
                 <!-- THIS WILL BE 2 COL-6 @1000px and 2 COL-12 @700px and 300px -->
+            <div class="row border">
+              <div class="col-12 col-sm-6 border">
+                <h6 class="bold">Basic info</h6>
+                <h6>D.O.B: 02/04/1999 (25yrs)</h6>
+                <h6>Location:Cape Town</h6>
+                <h6>Language: English</h6>
+              </div>
+              <div class="col-12 col-sm-6 border">
+                <h6 class="bold">Interests</h6>
+                <h6>Reading:(Favourite genre: non-fiction) Recently finished: Atomic Habits (James Clear). Currently reading Surrounded by Idiots (Thomas Eriskson) with Jim Kwik's "Limtless" next on my to-be-read list.</h6>
+                <h6>Hiking: currently busy covering all the trails at the Tygerberg Nature Reserve. Goal/dream = cover all the waterfall hike of Cape Town</h6>
+                <h6>Language: English</h6>
+              </div>
+            </div>
           <!-- Row holding basic info ends here -->
+    </div>
+          
     <!-- Column holding img + basic info ends here -->
 
 
 
     <!-- Column holding About Me starts here -->
-
-
       <!-- Row holding intro paragraph starts here -->
             <!-- THIS WILL BE A COL-12 -->
+            <div class="row border">
+              <div class="col-12">
+                <h5>I am a 25 year old from Cape Town </h5>
+                <h5>who recently became interested in</h5>
+                <h5>pursuing a career in coding</h5>
+              </div>
+            </div>
       <!-- Row holding intro paragraph ends here -->
       <!-- Row holding more about me + fun info starts here -->
+      <!-- <div class="row border">fghj -->
           <!-- Column holding more about me starts here -->
+
           <!-- Column holding more about me ends here -->
           <!-- Column holding fun info starts here -->
           <!-- Column holding fun info ends here -->
+      <!-- </div> -->
+          
       <!-- Row holding more about me + fun info ends here -->
 
 
@@ -115,9 +146,10 @@ export default {
     display: flex;
     justify-content: center;
   } */
-  .homePgImg{
+  .aboutPgImg{
     min-width: 195px;
     max-width: 290px;
+    max-height: 300px;
     background-color: #2c3e50;
     padding: 5px;
     box-shadow: 0px 0px 30px 10px #2c3e50;
