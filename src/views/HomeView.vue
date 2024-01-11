@@ -9,7 +9,7 @@
 
     <!-- Image column starts here -->
     <div class="col-12 col-sm-3 mt-5 ">
-      <img class="homePgImg" src="https://drive.google.com/uc?id=17PvyABE2PL9a_t0_vxwlEdr10Hvu6x1N" alt="">
+      <img class="homePgImg" src="https://i.ibb.co/vcMtW2P/Screenshot-2023-11-03-114920.png" alt="">
     </div>
     <!-- Image column ends here -->
 
