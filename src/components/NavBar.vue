@@ -84,3 +84,8 @@
     /* Animation (from the following open-source https://codepen.io/P1N2O/pen/pyBNzX) ends here  */
 
   </style>
+
+<!-- 
+    NavBar image link
+    1)https://i.ibb.co/BnLhxLd/Screenshot-2024-01-10-094142.png
+ -->

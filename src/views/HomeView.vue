@@ -100,3 +100,9 @@ export default {
   }
   
 </style>
+
+<!-- 
+  Home pg image link:
+  1)https://i.ibb.co/YRBhdkQ/My-Home-Pg-Pic-Bg-Rectangle-Ver-no-Bg.png
+  2)https://i.ibb.co/3fwNCwS/My-Home-Pg-Pic-Bg-Square-Ver-no-Bg.png
+ -->

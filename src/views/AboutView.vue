@@ -188,3 +188,8 @@ export default {
   }
   
 </style>
+
+<!-- 
+  AboutPg image link:
+  1) https://i.ibb.co/dDknjkr/about-Pg-Pic.jpg
+ -->
