@@ -12,6 +12,14 @@ export default{
   components:{
     NavBar,
     Footer
+  },
+  computed:{
+    getInfo(){
+      this.$store.dispatch('getInfo');
+    }
+  },
+  mounted(){
+    this.getInfo
   }
 }
 
@@ -31,14 +39,14 @@ body{
   background-color: #EDB5A2;
 }
 
-nav {
-  /* padding: 30px; */
-  /* main, darker peach #EDB5A2; */
-  /* The nice blue = #2c3e50 */
-  /* The nice brown = #4A351D */
-  /* Greyish accent color = #E6D9CB*/
-  /* softer peach = #F5E9DB */
-}
+/* nav {
+  padding: 30px;
+  main, darker peach #EDB5A2;
+  The nice blue = #2c3e50
+  The nice brown = #4A351D
+  Greyish accent color = #E6D9CB
+  softer peach = #F5E9DB
+} */
 
 nav a {
   font-weight: bold;
