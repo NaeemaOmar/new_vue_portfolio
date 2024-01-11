@@ -1,6 +1,6 @@
 <template>
     <div class="mt-4">
-      <h1>Character testimonials/witesses</h1>
+      <h1>Character witnesses</h1>
     </div>
     <!-- Bootstrap carousel starts here -->
       <div
@@ -18,11 +18,12 @@
                 alt=""
               />
             </div>
-            <div class="border">
+            <div>
               <h3 id="aboutPgBorder" class="balthazar text-center">
-                Asithandile Tyulu - Peer
+                {{ this.$store.state.name4 }}
               </h3>
               <p id="aboutPgBorder" class="balthazar">
+                {{ this.$store.state.desc4 }}
                 "Naeema's combination of
                 unwavering diligence and hard work combined with her remarkable level of
                 intelligence make her a standout professional. Her articulate
@@ -43,14 +44,10 @@
             </div>
             <div>
               <h3 id="aboutPgBorder" class="balthazar text-center">
-                Tyhiesha Johnson - Peer
+                {{ this.$store.state.name5 }}
               </h3>
               <p id="aboutPgBorder" class="balthazar">
-                "Naeema Omar is a solid problem-solver. With her logical
-                approach and calm demeanor she identifies, analyzes and resolves
-                both coding and practical issues. She has an impactful voice
-                with a cheery energy and great adaptability within a team or
-                group setting."
+                {{ this.$store.state.desc5 }}
               </p>
             </div>
             <!-- carousel caption closes -->
@@ -67,10 +64,10 @@
             </div>
             <div>
               <h3 id="aboutPgBorder" class="balthazar text-center">
-                Matthew Brown - Lecturer
+                {{this.$store.state.name1}}
               </h3>
               <p id="aboutPgBorder" class="balthazar">
-                "Naeema is consistent, dedicated and hardworking. She is always willing to learn and has a positive attitude towards learning which facilitates her growth and allows for creativity in her work."
+                {{ this.$store.state.desc1 }}
               </p>
             </div>
             <!-- carousel caption closes -->
@@ -86,10 +83,10 @@
             </div>
             <div>
               <h3 id="aboutPgBorder" class="balthazar text-center">
-                Ntando Nokilana - Peer
+                {{ this.$store.state.name2 }}
               </h3>
               <p id="aboutPgBorder" class="balthazar">
-                "Naeema is a highly dedicated young woman. She approaches every task with grace, intelligence, and unwavering commitment. Her remarkable work ethic permeates all her endeavours, and her ability to quickly adapt is truly impressive."
+                {{ this.$store.state.desc2 }}
               </p>
             </div>
             <!-- carousel caption closes -->
@@ -104,12 +101,12 @@
                 alt=""
               />
             </div>
-            <div class="border">
+            <div>
               <h3 id="aboutPgBorder" class="balthazar text-center">
-                Onika Sileku - Peer
+                {{ this.$store.state.name3 }}
               </h3>
               <p id="aboutPgBorder" class="balthazar">
-                "It is  exciting to witness Naeema Omar growth as a  developer. Her adaptability and enthusiasm for learning have not only contributed to her personal development but have also positively impacted the dynamics of our work. I am confident that she will achieve great milestones in her career"
+                {{ this.$store.state.desc3 }}
               </p>
             </div>
             <!-- carousel caption closes -->
