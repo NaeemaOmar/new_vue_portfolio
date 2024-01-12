@@ -83,7 +83,6 @@
   .projectRowMargin{
     max-width: 1505px;
     /* NOTE: appling a max-width of 1505px makes the div fit the page w/out stretching the navBar and footer */
-    border: 5px solid brown;
     margin-inline: 2px;
     /* NOTE: adding a margin in-line centers the row in the page at all breakpoints (300px, 700px, 1000px, 1500px)*/
     /* NOTE: adding margin-left = 25px centers the 700px view */
