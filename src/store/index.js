@@ -14,7 +14,11 @@ export default createStore({
     desc4: "",
     name5: "",
     desc5: "",
-    projectsData: []
+    projectsData: [],
+    education:[],
+    workExperienceSummary:[],
+    workExperienceDescr:[],
+    technicalSkills:[]
   },
   getters: {
   },
@@ -54,6 +58,13 @@ export default createStore({
       console.log("This is evidence that the mutation is working");
       console.log("This is evidence that the state has the array in it: " + state.projectsData[0].name);
       console.log("Checking if i can get the image src: " + state.projectsData[0].imgSRC )
+    },
+    setResumeDataArray(state, resumeInfoArray){
+      state.education=resumeInfoArray.education;
+      console.log("this is to see if the mutation is working. education = " + state.education[0].institute);
+      state.workExperienceSummary=resumeInfoArray.workExperienceSummary;
+      state.workExperienceDescr=resumeInfoArray.workExperienceDescr;
+      state.technicalSkills=resumeInfoArray.technicalSkills;
     }
   },
   actions: {
@@ -89,6 +100,12 @@ export default createStore({
         const projectsInfoArray = projectsInfo.data.projects;
         console.log("This is the projects data array: " + projectsInfoArray);
         commit('setProjectsDataArray', projectsInfoArray);
+  })},
+  getResumeInfo({commit}){
+      axios.get('https://naeemaomar.github.io/resumeData-vueEOMP/').then(resumeInfo => {
+        const resumeInfoArray = resumeInfo.data;
+        console.log("This is the resume data array: " + resumeInfoArray.educ);
+        commit('setResumeDataArray', resumeInfoArray);
   })}
     },
   // getProjectsInfo({commit}){

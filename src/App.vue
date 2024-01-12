@@ -19,11 +19,15 @@ export default{
     },
     getProjectsInfo(){
       this.$store.dispatch('getProjectsInfo');
+    },
+    getResumeInfo(){
+      this.$store.dispatch('getResumeInfo');
     }
   },
   mounted(){
     this.getInfo,
     this.getProjectsInfo
+    this.getResumeInfo
   }
 }
 
