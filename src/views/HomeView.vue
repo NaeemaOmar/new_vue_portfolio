@@ -81,8 +81,10 @@ export default {
   }
   .brownTxt{
     color: #4A351D;
+    
     font-weight: 700;
   }
+  
   .btnStyling{ 
     background-color: #F5E9DB;
     border: 5px solid #2c3e50;

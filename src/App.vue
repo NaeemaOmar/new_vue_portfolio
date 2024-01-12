@@ -16,10 +16,14 @@ export default{
   computed:{
     getInfo(){
       this.$store.dispatch('getInfo');
+    },
+    getProjectsInfo(){
+      this.$store.dispatch('getProjectsInfo');
     }
   },
   mounted(){
-    this.getInfo
+    this.getInfo,
+    this.getProjectsInfo
   }
 }
 
