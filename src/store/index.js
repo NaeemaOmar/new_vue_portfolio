@@ -13,7 +13,8 @@ export default createStore({
     name4: "",
     desc4: "",
     name5: "",
-    desc5: ""
+    desc5: "",
+    projectsData: []
   },
   getters: {
   },
@@ -47,6 +48,12 @@ export default createStore({
     },
     setTestimonial5(state, desc5){
       state.desc5 = desc5;
+    },
+    setProjectsDataArray(state, data){
+      state.projectsData = data;
+      console.log("This is evidence that the mutation is working");
+      console.log("This is evidence that the state has the array in it: " + state.projectsData[0].name);
+      console.log("Checking if i can get the image src: " + state.projectsData[0].imgSRC )
     }
   },
   actions: {
@@ -76,8 +83,25 @@ export default createStore({
           commit('setPerson5', name5);
           commit('setTestimonial5', description5)
         })
-    }
-  },
+    },
+  getProjectsInfo({commit}){
+      axios.get('https://naeemaomar.github.io/EOMPData-ProjectsPg/').then(projectsInfo => {
+        const projectsInfoArray = projectsInfo.data.projects;
+        console.log("This is the projects data array: " + projectsInfoArray);
+        commit('setProjectsDataArray', projectsInfoArray);
+  })}
+    },
+  // getProjectsInfo({commit}){
+  //   try {
+  //     axios('https://naeemaomar.github.io/EOMPData-ProjectsPg/').then(projectsInfo => {
+  //       const projectsInfoArray = projectsInfo.data;
+  //       console.log("This is the projects data array: " + projectsInfoArray);
+  //       commit('setProjectsDataArray', projectsInfoArray);
+  //     })
+  //   } catch(error){
+  //     console.log("There was the following error while fetching the data: ", error);
+  //   }
+  // },
   modules: {
   }
 })
