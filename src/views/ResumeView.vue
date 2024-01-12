@@ -86,9 +86,7 @@
   </template>
 
   <style>
-  .mainDiv{
-    border: 5px solid orange;
-  }
+  
   .mainBrownHeading{
     width: 250px;
     background-color: #F1CFBF;

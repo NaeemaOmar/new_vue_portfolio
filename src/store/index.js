@@ -69,7 +69,8 @@ export default createStore({
   },
   actions: {
     getInfo({commit}){
-      axios('https://naeemaomar.github.io/FinalVueEompData/')
+      try{
+        axios('https://naeemaomar.github.io/FinalVueEompData/')
        .then(testimonialsData =>{ 
           // const testimonialsData = testimonialsData.data.Testimonials;
           console.log(testimonialsData.data.Testimonials[1].name2);
@@ -94,19 +95,34 @@ export default createStore({
           commit('setPerson5', name5);
           commit('setTestimonial5', description5)
         })
+      } catch(error){
+        console.log("The following error occured while fetchimg your data: ", error)
+      }
+      
     },
   getProjectsInfo({commit}){
+    try{
       axios.get('https://naeemaomar.github.io/EOMPData-ProjectsPg/').then(projectsInfo => {
         const projectsInfoArray = projectsInfo.data.projects;
         console.log("This is the projects data array: " + projectsInfoArray);
         commit('setProjectsDataArray', projectsInfoArray);
-  })},
+  })
+    } catch(error){
+      console.log("The following error occured while fetchimg your data: ", error)
+    }
+      
+},
   getResumeInfo({commit}){
+    try{
       axios.get('https://naeemaomar.github.io/resumeData-vueEOMP/').then(resumeInfo => {
         const resumeInfoArray = resumeInfo.data;
         console.log("This is the resume data array: " + resumeInfoArray.educ);
         commit('setResumeDataArray', resumeInfoArray);
-  })}
+  })
+    } catch(error){
+      console.log("The following error occured while fetchimg your data: ", error)
+    }
+}
     },
   // getProjectsInfo({commit}){
   //   try {
