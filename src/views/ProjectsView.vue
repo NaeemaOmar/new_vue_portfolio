@@ -53,6 +53,7 @@
   }
   .brownBoxShadow{
     box-shadow: 0px 0px 30px 10px #4A351D;
+    border-radius: 20px;  
   }
 
 /* ALIGNMENT ATTEMPT 2 STARTS HERE */
@@ -85,6 +86,7 @@
     border: 5px solid brown;
     margin-inline: 2px;
     /* NOTE: adding a margin in-line centers the row in the page at all breakpoints (300px, 700px, 1000px, 1500px)*/
+    /* NOTE: adding margin-left = 25px centers the 700px view */
   }
   .projectDesc{
     height: 250px;

@@ -1,6 +1,6 @@
 <template>
     <div class="mt-4">
-      <h1>Character witnesses</h1>
+      <h1 class="welcome mt-5">Character witnesses</h1>
     </div>
     <!-- Bootstrap carousel starts here -->
       <div

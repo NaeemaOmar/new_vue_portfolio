@@ -1,8 +1,7 @@
 <template >
 <div class="Body">
-      <h1>This is an Contact page</h1>
     
-    <h2>Contact us</h2>
+    <h2 class="welcome mt-5">Want to chat?</h2>
         <div class="d-flex justify-content-center">
         <div class="row container mt-5 d-flex justify-content-center">
           <div class="col-6 mx-auto mt-3">

@@ -1,9 +1,6 @@
 <template>
     <div class=" container-fluid footer shadow Body">
-            <div class="row">
-                <div class="col-6 text-left">&NaeemaOmar Left</div>
-                <div class="col-6 text-right">&NaeemaOmar Right</div>
-            </div>
+            <div class="text-center"> &copy; NaeemaOmar 2024 </div>
         </div>
 </template>
 
