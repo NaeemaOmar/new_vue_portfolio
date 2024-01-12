@@ -90,7 +90,7 @@ export default {
     border: 5px solid #2c3e50;
     border-radius: 20px;
     box-shadow: 0px 0px 30px 8px #2c3e50;
-    height: 50px;
+    height: 70px;
     width: 100px;
   }
   .rowWidth{
