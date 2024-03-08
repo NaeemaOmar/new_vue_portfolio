@@ -1,5 +1,5 @@
 <template >
-<div class="Body">
+<div>
     
     <h2 class="welcome mt-5">Want to chat?</h2>
         <div class="d-flex justify-content-center">
@@ -49,7 +49,7 @@
                 </a>
               </div>
             </div>
-            <div class="row bottomRowMargin">
+            <div class="row bottomRowMargin mb-5">
               <div class="col-6">
                 <a href="https://www.whatsapp.com/">
                   <i class="fa-brands fa-square-whatsapp fa-2xl iconStyling"></i>
@@ -66,13 +66,14 @@
           </div>
         </div>
       </div> 
+      <div class="lastDiv"></div>
     </div>
   </template>
   
   <style>
-    .iconStyling{
-    color: #4A351D ;
-    box-shadow: 0px 0px 30px 10px #4A351D ;
+    
+    .lastDiv{
+      height: 50px;
     }
     .bottomRowMargin{
         margin-bottom: 100px;
@@ -90,7 +91,12 @@
         margin-top: 100px;
         margin-inline-start: 20%;
     }
-    .noBorder{
+    .iconStyling{
+    color: #4A351D ;
+    box-shadow: 0px 0px 30px 10px #4A351D ;
+    }
+    
+    .noBorder{ 
         border: none;
     }
     .btnRounding{

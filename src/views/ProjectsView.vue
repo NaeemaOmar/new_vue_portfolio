@@ -17,14 +17,14 @@
             <div class="row projectBtn">
               <div class="col-6 projectBtn">
                 <a :href="project.netlify">
-                  <button class="btnStyling">View project</button>
+                  <button class="btnStyling btnRounding noBorder iconStyling">View project</button>
                   <!-- Q: why wasn't the anchor tag working?
                   A: because href is a attribute and therefore needs a colon for binding AND no mostache syntax -->
                 </a>
               </div>
               <div class="col-6">
                 <a :href="project.github">
-                  <button class="btnStyling">Project gitHub</button>
+                  <button class="btnStyling btnRounding noBorder iconStyling">Project gitHub</button>
                 </a>
               </div>
             </div>
@@ -102,6 +102,19 @@
     /* NOTE: btn only had a margin bottom */
     
   }
+  .iconStyling{
+    color: #4A351D ;
+    box-shadow: 0px 0px 30px 10px #4A351D ;
+    }
+    
+    .noBorder{ 
+        border: none;
+    }
+    .btnRounding{
+        border: 3px solid #4A351D;
+        border-radius:10px;
+        background-color: #F1CFBF;
+    }
 
   /* NOTE: Alignment attempt 2 fixes the projects alignment at full-screen */
   /* ALIGNMENT ATTEMPT 2 ENDS HERE */

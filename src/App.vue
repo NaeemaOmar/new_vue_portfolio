@@ -65,4 +65,9 @@ nav a {
 nav a.router-link-exact-active {
   color: #2c3e50;
 }
+
+.brownTxt{
+  color: #4A351D;
+}
+
 </style>
