@@ -14,7 +14,7 @@
               <router-link to="/">Home</router-link> 
           </li>
           <li class="nav-item ">
-              <router-link to="/goldHome">Gold-Home</router-link> 
+              <router-link to="/newHome">Gold-Home</router-link> 
           </li>
           <li class="nav-item ">
               <router-link to="/about">About</router-link> 

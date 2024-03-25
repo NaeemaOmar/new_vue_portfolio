@@ -23,29 +23,29 @@
           <h3>I am <span class="brownTxtShadow">Naeema Omar,</span></h3>
           <h3>an aspiring</h3>
           <h3>Full-stack developer</h3>
-        </div>
-        <!-- Buttons row starts here -->
-        <div class="row mt-5">
-          <div class="col-6">
-            <a href="/src/views/AboutView.vue">
-              <button class="btnStyling btnRounding noBorder iconStyling">
-                <router-link to="/about">
-                  <span class="brownTxt">About</span></router-link
-                >
-              </button>
-            </a>
+          <!-- Buttons row starts here -->
+          <div class="row my-5">
+            <div class="col-6">
+              <a href="/src/views/AboutView.vue">
+                <button class="btnStyling btnRounding noBorder iconStyling">
+                  <router-link to="/about">
+                    <span class="brownTxt">About</span></router-link
+                  >
+                </button>
+              </a>
+            </div>
+            <div class="col-6">
+              <a href="/src/views/AboutView.vue">
+                <button class="btnStyling btnRounding noBorder iconStyling">
+                  <router-link to="/contact">
+                    <span class="brownTxt">Contact</span></router-link
+                  >
+                </button>
+              </a>
+            </div>
           </div>
-          <div class="col-6">
-            <a href="/src/views/AboutView.vue">
-              <button class="btnStyling btnRounding noBorder iconStyling">
-                <router-link to="/contact">
-                  <span class="brownTxt">Contact</span></router-link
-                >
-              </button>
-            </a>
-          </div>
+          <!-- Buttons row ends here -->
         </div>
-        <!-- Buttons row ends here -->
       </div>
     </div>
   </div>

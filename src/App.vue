@@ -44,7 +44,8 @@ export default{
 
 
 body{
-  background-color: #EDB5A2;
+  /* background-color: #EDB5A2; */
+  background-color: #FCF2EE;
 }
 
 /* nav {
