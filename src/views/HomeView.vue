@@ -1,44 +1,43 @@
 <template>
   <div>
-    <div class="">
-      <div class="">
-        <h1 class="welcomeTxt my-5">Welcome to my online abode</h1>
+    <div>
+      <div>
+        <h1>Welcome to my online abode</h1>
       </div>
     </div>
-    <div class="row mt-5 mx-5 d-flex justify-content-between">
+    <div>
       <!-- The d-flex... in the line above is keeping things centered in the 1000px page width -->
 
       <!-- Image column starts here -->
-      <div class="col-12 col-sm-3 mt-5">
+      <div>
         <img
-          class="homePgImg"
           src="https://i.ibb.co/dDknjkr/about-Pg-Pic.jpg"
           alt=""
         />
       </div>
       <!-- Image column ends here -->
 
-      <div class="col-12 col-sm-5">
-        <div class="txtBorderHome mt-5">
-          <h3>I am <span class="brownTxtShadow">Naeema Omar,</span></h3>
+      <div>
+        <div>
+          <h3>I am <span>Naeema Omar,</span></h3>
           <h3>an aspiring</h3>
           <h3>Full-stack developer</h3>
           <!-- Buttons row starts here -->
-          <div class="row my-5">
-            <div class="col-6">
+          <div >
+            <div>
               <a href="/src/views/AboutView.vue">
-                <button class="btnStyling btnRounding noBorder iconStyling">
+                <button>
                   <router-link to="/about">
-                    <span class="brownTxt">About</span></router-link
+                    <span>About</span></router-link
                   >
                 </button>
               </a>
             </div>
-            <div class="col-6">
-              <a href="/src/views/AboutView.vue">
-                <button class="btnStyling btnRounding noBorder iconStyling">
+            <div>
+              <a>
+                <button>
                   <router-link to="/contact">
-                    <span class="brownTxt">Contact</span></router-link
+                    <span>Contact</span></router-link
                   >
                 </button>
               </a>
@@ -50,38 +49,6 @@
     </div>
   </div>
 </template>
-
-<script>
-// @ is an alias to /src
-
-export default {};
-</script>
-
-<style>
-.homePgImg {
-  min-width: 195px;
-  max-width: 290px;
-  background-color: #2c3e50;
-  padding: 5px;
-  box-shadow: 0px 0px 30px 10px #2c3e50;
-  border-radius: 20px;
-  margin-bottom: 100px;
-}
-
-.txtBorderHome {
-  border: 5px solid #2c3e50;
-  box-shadow: 0px 0px 30px 10px #2c3e50;
-  border-radius: 45px;
-  background-color: #edb5a2;
-  margin-inline: 20px;
-}
-
-.btnStyling {
-  border: 3px solid #4a351d;
-  border-radius: 10px;
-  background-color: #f1cfbf;
-}
-</style>
 
 <!-- 
   Home pg image link:
